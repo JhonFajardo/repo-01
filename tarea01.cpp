@@ -13,7 +13,6 @@ int main()
         if(n%2 == 1)
         {
             result = result + 1.0/n;
-            std::cout << n <<" - "<< result << "\n";
         }  
     }
     std::cout << result << "\n";
